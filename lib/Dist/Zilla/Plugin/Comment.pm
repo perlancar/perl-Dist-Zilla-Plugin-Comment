@@ -25,7 +25,7 @@ sub munge_files {
 
 sub __comment_lines {
     local $_ = shift;
-    s/^/## //g;
+    s/^/## /gm;
     $_;
 }
 
