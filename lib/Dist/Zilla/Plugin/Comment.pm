@@ -51,7 +51,7 @@ sub munge_file {
         $content =~ s/^(.+)(# COMMENT$)/__comment_lines($1) . $2/egm;
 
     if ($modified) {
-        $self->log(["commented block(s)/line(s) in '%s'", $file]);
+        $self->log(["commented block(s)/line(s) in '%s'", $file->name]);
         $file->content($content);
     }
 }
