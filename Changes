@@ -1,5 +1,3 @@
-Revision history for Dist-Zilla-Plugin-Comment
-
 0.02    2016-12-25 (PERLANCAR)
 
 	- [Bugfix] Fix log message generated when a file is modified to
